@@ -1,0 +1,66 @@
+
+#################################################################################################################
+
+The following are adjustments done by adjustFenceChannel command based on above channel congestion information.
+Expected channel width/height increase might not be achieved by automatic adjustment. It is recommended for user
+to review the automatic result. If there is any floorplan change, please regenerate your placement and routing result.
+Existing routing guides, partition pin assignments, and some other objects may need adjustment before doing place&route again.
+
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/cmem0/ddata0/u0/id0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/cmem0/dtags0/u0/id0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/cmem0/idata0/u0/id0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/cmem0/itags0/u0/id0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/rf0/u0/u0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/mcore0/proc0/rf0/u0/u1 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram1 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram10 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram11 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram12 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram13 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram14 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram15 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram16 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram17 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram18 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram19 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram2 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram3 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram4 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram5 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram6 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram7 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram8 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram9 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/amba_dsp1/rom2p_2kx32/ram0 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/leon1 is not changed.
+************************************************************************************************************
+coreinst/ks_core1/periph1_PH is not changed.

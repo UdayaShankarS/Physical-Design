@@ -1,0 +1,22 @@
+#### delete relative floorplan ####
+delete_relative_floorplan {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram14 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram18 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram16 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram4 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram11 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram6 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram10 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram5 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram7  coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram13 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram9 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram8 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram15 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram2 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram3 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram12 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram1 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram17 }
+
+#### Floorplan the first object ####
+create_relative_floorplan -place coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 -ref coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 -ref_type object -horizontal_edge_separate {1 0 1} -vertical_edge_separate {2 0 2} -orient R0
+
+#### Floorplan the first column ####
+create_relative_floorplan -place {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram9 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram2 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram3 } -ref {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram9 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram2 } -ref_type {object object object} -horizontal_edge_separate {3 -32.52 1 , 3 -32.52 1 , 3 -32.52 1} -vertical_edge_separate {2 0 2 , 2 0 2 , 2 0 2} -orient {R0 R0 R0}
+
+#### Floorplan row 0 ####
+create_relative_floorplan -place {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram13 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram8 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram12 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram16 } -ref {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram0 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram13 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram8 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram12 } -ref_type {object object object object} -horizontal_edge_separate {1 0 1 , 1 0 1 , 1 0 1 , 1 0 1} -vertical_edge_separate {0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2} -orient {R0 R0 R0 R0}
+
+#### Floorplan row 1 ####
+create_relative_floorplan -place {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram15 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram1 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram4 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram10 } -ref {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram9 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram15 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram1 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram4 } -ref_type {object object object object} -horizontal_edge_separate {1 0 1 , 1 0 1 , 1 0 1 , 1 0 1} -vertical_edge_separate {0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2} -orient {R0 R0 R0 R0}
+
+#### Floorplan row 2 ####
+create_relative_floorplan -place {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram17 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram18 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram6 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram7 } -ref {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram2 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram17 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram18 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram6 } -ref_type {object object object object} -horizontal_edge_separate {1 0 1 , 1 0 1 , 1 0 1 , 1 0 1} -vertical_edge_separate {0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2} -orient {R0 R0 R0 R0}
+
+#### Floorplan row 3 ####
+create_relative_floorplan -place {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram14 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram11 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram5 } -ref {coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram3 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram14 coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0/ram11 } -ref_type {object object object} -horizontal_edge_separate {1 0 1 , 1 0 1 , 1 0 1 ,} -vertical_edge_separate {0 -36.3 2 , 0 -36.3 2 , 0 -36.3 2 ,} -orient {R0 R0 R0}
+amToolRedraw
+

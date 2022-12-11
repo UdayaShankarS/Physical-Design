@@ -1,0 +1,28 @@
+Gate area 1.0260 um^2
+Level 0 Module asic_entity                              Gates=  19967948 Cells=   17915 Area=20487115.1 um^2
+Level 1 Module coreinst                                 Gates=19967938   Cells=17912    Area=20487104.8 um^2
+Level 2 Module coreinst/ks_core1                        Gates=19967803   Cells=17874    Area=20486966.0 um^2
+Level 3 Module coreinst/ks_core1/amba_dsp1              Gates=15335295   Cells=17841    Area=15734013.5 um^2
+Level 4 Module coreinst/ks_core1/amba_dsp1/mcore0       Gates=406500     Cells=15268    Area=  417069.3 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/ahb0  Gates=473        Cells=115      Area=     485.3 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/apb0  Gates=1017       Cells=281      Area=    1044.1 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/asm   Gates=835        Cells=174      Area=     857.1 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/ioport0 Gates=2015       Cells=392      Area=    2067.7 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/irqctrl0 Gates=1495       Cells=387      Area=    1534.6 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/mctrl0 Gates=2669       Cells=583      Area=    2738.7 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/proc0 Gates=389082     Cells=11270    Area=  399198.4 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/timers0 Gates=3606       Cells=844      Area=    3700.1 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/uart1 Gates=1905       Cells=460      Area=    1955.2 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/uart2 Gates=1910       Cells=461      Area=    1960.0 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/mcore0/wpm   Gates=1447       Cells=296      Area=    1485.0 um^2
+Level 4 Module coreinst/ks_core1/amba_dsp1/ram2p_78kx32 Gates=14537358   Cells=1801     Area=14915330.2 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/ram2p_78kx32/bistctrl_0 Gates=1053       Cells=227      Area=    1081.1 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/ram2p_78kx32/ram0 Gates=14534985   Cells=1231     Area=14912895.5 um^2
+Level 4 Module coreinst/ks_core1/amba_dsp1/ram_amba_wrapper Gates=549        Cells=121      Area=     563.3 um^2
+Level 4 Module coreinst/ks_core1/amba_dsp1/rom2p_2kx32  Gates=390108     Cells=476      Area=  400251.5 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/rom2p_2kx32/bistctrl_0 Gates=758        Cells=162      Area=     778.4 um^2
+Level 5 Module coreinst/ks_core1/amba_dsp1/rom2p_2kx32/ram0 Gates=388111     Cells=0        Area=  398202.2 um^2
+Level 4 Module coreinst/ks_core1/amba_dsp1/rom_amba_wrapper Gates=434        Cells=104      Area=     445.3 um^2
+Level 3 Module coreinst/ks_core1/leon1                  Gates=1193226    Cells=0        Area= 1224249.9 um^2
+Level 3 Module coreinst/ks_core1/periph1_PH             Gates=3439170    Cells=0        Area= 3528588.4 um^2
+Level 2 Module coreinst/ks_iologic1                     Gates=130        Cells=37       Area=     133.4 um^2
