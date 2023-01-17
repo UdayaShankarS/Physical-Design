@@ -1,0 +1,51 @@
+The repository discusses the Design of the Floorplanning using the following steps for the design (Leon Processors Core with 29 Macros)
+1.	Importing the Design
+2.	Specifying the Floorplan
+3.	Moving and Editing Placement Constraints
+4.	Placing Hard Macros
+	a.	Relative Floor planning
+	b.	Manual Movements of Macros
+5.	Floorplan Toolbox Usage 
+6.	Resizing Floor plan
+7.	Creating Placement & routing Blockages 
+	a.	Halo
+	b.	Creating Soft Placement Blockage
+	c.	Creating Partial Placement Blockage
+	d.	Creating Routing Blockages
+8.	Power Routing
+	a.	Creating Power and Ground Rings 
+	b.	Creating Power Stripes
+9.	Power/Ground Routing 
+
+About LEON Procesor:
+LEON is a radiation-tolerant 32-bit central processing unit (CPU) microprocessor core that implements the SPARC V8 instruction set architecture (ISA) developed by Sun Microsystems. It was originally designed by the European Space Research and Technology Centre (ESTEC), part of the European Space Agency (ESA), without any involvement by Sun. Later versions have been designed by Gaisler Research, under a variety of owners. It is described in synthesizable VHSIC Hardware Description Language (VHDL). The core is configurable through VHDL generics, and is used in system on a chip (SOC) designs both in research and commercial settings.
+
+
+Design
+-------------------------------------------------
+| Specifications:						|
+|------------------------------------------------
+| Core			| LEON Core			|
+| Hard Macros (M)		| 29				|
+| Technology		| 45nm			|
+| No of i/os		| 297				|
+| Tools Used		| Cadence Innovus 19.2	|
+| Number of Clocks	| 8				|
+| Voltages			| 1V				|
+| Metal Layers		| 19				|
+-------------------------------------------------
+-------------------------------------------------
+| Summmary Report:					|
+-------------------------------------------------
+| No. of Instances (I)	| 18228 [C+M+P]		|
+| Pads (P)			| 313				|
+| Standard Cells (C) 	| 17886			|
+| No of Nets		| 22357			|
+| No of Gates		| 19967948			|
+-------------------------------------------------
+
+Acknowledgements
+https://www.cadence.com [Floor planning]
+Dr. Adam Teman, EnICS Labs
+https://www.edn.com/floorplanning-concept-challenges-and-closure/
+https://en.wikipedia.org/wiki/LEON
