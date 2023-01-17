@@ -1,0 +1,58 @@
+This repository discusses about the Synthesis and Physical Implementation of a design (simple) with Multiple Supply Voltage using a UPF File.
+This also includes how to add the isolation cells, retention cells and level shifters to the design inorder to nake the different modules in the core to operate at different power domains or supply voltages.
+
+Directories: 
+The following directores consistes of files related to these purposes;
+LAB4: 1801-Based RTL-to-Gate Synthesis Using Genus (Legacy Mode)
+LAB5: Power -Aware Equivalence Checking with Synthesized Netlist and UPF
+LAB6a: 1801 based Physical Design Implementation with Innovus
+LAB6b: Power-Aware Equivalence Checking Between a Logical Netlist (Golden) and a Physical Netlist with UPF
+RTL: Verilog Codes of the Design
+LIBS: PDK Files (*.lib,*.lef, *.capTable) 
+1801: UPF file - Describes the power intent of the design
+constraints: SDC constraints for synthesis
+
+LAB4
+|---run_genus.g: This script launches Genus in legacy mode and runs the syn.tcl script
+|---syn.tcl: Genus script for legacy mode
+|---genus.log: Log file for the lab
+|---top_im.vg: Intermediate gate netlist file (post global mapping)
+|---top.vg: Output gate netlist file (post incremental mapping)
+|---lec_im_1801.tcl: LEC script to compare RTL against intermediate netlist
+|---run_im_1801.g: To run lec_im.tcl
+|---lec_final_1801.tcl: LEC script to compare the intermediate and final netlists
+|---run_final_1801.g: To run lec_final.tcl
+
+LAB5
+|---run.g: This script launches CLP and runs the qc_postsyn.do
+|---qc_postsyn.do : dofile to run the post-synthesis quality check
+|---qc_postsyn.log : The logfile that is generated from the run
+|--../LAB4/top.vg: Gate netlist file on which the post-synthesis check is performed
+
+LAB6a
+|--Physical Design: Contains all the file related to Physical Design
+	|----INPUT: Input files like(*.globals,*.io,MMMC file)
+      |----LIBS: PDK Files (*.lib,*.lef, *.capTable) 
+      |----SCRIPTS: scripts to run the physical Design steps like Design planning, floor planning, power planning, placement, routing
+      |----work:Run directory for innovus contains log file, reports and DB files
+|---run.g: Script that launches CLP and executes the clp_phy.do dofile
+|--- ../1801/top.upf: Describes the power intent of the design.
+|--- top_phys.v: Physical netlist file 
+|---clp_phy.do: CLP dofile
+|---clp_phy.log: Log file for this lab
+
+LAB6b
+|---run_1801.g: Script that launches CLP and executes the lec_phy.tcl dofile
+|---top.upf: Describes the power intent of the design
+|---../LAB6a/top_phy.vg,
+|---../LAB4/top.vg: Physical and logical netlists respectively
+|--- lec_phy_1801.tcl: LEC Dofile
+|---lec_phy_1801.log: Log file for this lab
+
+This repository helps you to design with MSV (Multiple Supply Voltages) and also take Power as critical function to reduce the power in the design.
+
+Acknowledgement:
+For more Information, please refer the cited document below;
+[1] IEEE Standard for Design and Verification of Low Power Integrated Circuits. (n.d.). doi:10.1109/ieeestd.2009.480984
+[2] https://semiengineering.com
+[3] https://www.cadence.com
