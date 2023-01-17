@@ -51,6 +51,10 @@ LAB6b
 
 This repository helps you to design with MSV (Multiple Supply Voltages) and also take Power as critical function to reduce the power in the design.
 
+EDA Tools & Version used:
+Cadence Innovus 19.10
+Cadence Conformal 19.10
+
 Acknowledgement:
 For more Information, please refer the cited document below;
 [1] IEEE Standard for Design and Verification of Low Power Integrated Circuits. (n.d.). doi:10.1109/ieeestd.2009.480984
