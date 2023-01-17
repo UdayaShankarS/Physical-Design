@@ -1,0 +1,2 @@
+This repository discusses about the Synthesis and Physical Implementation of a design (simple) with Multiple Supply Voltage using a UPF File.
+This also includes how to add the isolation cells, retention cells and level shifters to the design inorder to nake the different modules in the core to operate at different power domains or supply voltages.
